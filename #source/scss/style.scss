@@ -1,19 +1,93 @@
 /* --------------------------------- nulling--------------------------------------------------- */
-*{padding:0;margin:0;border:0;}
-*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
-:focus,:active{outline:none}
-a:focus,a:active{outline:none}
-nav,footer,header,aside{display:block;}
-html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
-input,button,textarea{font-family:inherit;}
-input::-ms-clear{display:none;}
-button{cursor:pointer;}
-button::-moz-focus-inner{padding:0;border:0;}
-a,a:visited{text-decoration:none;}
-a:hover{text-decoration:none;}
-ul li{list-style:none;}
-img{vertical-align:top;}
-h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:400;}
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+:focus,
+:active {
+    outline: none
+}
+
+a:focus,
+a:active {
+    outline: none
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 16px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
 /* -------------------------------------------------------------------------------------------- */
 
 @import './fonts.css';
@@ -67,6 +141,7 @@ body {
     justify-content: space-between;
     font-family: 'Gotham-Medium';
     font-size: 12px;
+
     .nav__link {
         margin-left: 20px;
         color: #adadad;
@@ -80,23 +155,26 @@ body {
 
 .title-sec {
     background-image: url('/img/title-sec-bg.png');
-    background-size: cover; 
+    background-size: cover;
+
     &__content {
         padding: 172px 0 53px;
     }
+
     &__title {
         max-width: 415px;
         margin: auto;
         font-family: 'Gotham-Bold';
         font-size: 40px;
     }
+
     &__desc {
         display: inline-block;
         margin-top: 32px;
         font-family: 'Georgia-Italic';
-        font-size: 16px;
         color: #5a5a5a;
     }
+
     &__arrow {
         margin: 67px auto 0;
     }
@@ -108,6 +186,7 @@ body {
     width: 80px;
     border-radius: 50%;
     background-color: #797d6422;
+
     &__link {
         position: absolute;
         top: 50%;
@@ -121,7 +200,9 @@ body {
         margin-right: -25px;
         background-color: #ffffff;
         border-radius: 50%;
+        box-shadow: 0 2px 5px #303030;
     }
+
     &__icon {
         font-size: 20px;
         color: #525252;
@@ -130,3 +211,75 @@ body {
 
 /* ----- title section styles ----- */
 
+
+/* ----- works section styles ----- */
+
+.works {
+    &__content {
+        margin: 49px auto 68px;
+    }
+
+    &__grid {
+        margin-top: 51px;
+    }
+}
+
+.subtitle-sec {
+    &__desc {
+        max-width: 534px;
+        margin: 32px auto 0;
+    }
+}
+
+.subtitle {
+    font-family: 'Gotham-Bold';
+    font-size: 30px;
+
+    &::after {
+        content: '';
+        display: block;
+        height: 3px;
+        width: 240px;
+        margin: 18px auto 0;
+        background-color: #303030;
+    }
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 60px;
+
+    &__work-wrap {
+        position: relative;
+        max-height: 170px;
+        max-width: 260px;
+        overflow: hidden;
+
+        &:hover {
+            .grid__caption-wrap {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+
+    &__caption-wrap {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    &__caption {
+        font-family: 'Gotham-Medium';
+        font-size: 18px;
+        color: #ffffff;
+    }
+}
+
+/* ----- works section styles ----- */
