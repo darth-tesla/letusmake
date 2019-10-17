@@ -186,7 +186,10 @@ body {
 
 .subtitle-sec__desc {
   max-width: 534px;
-  margin: 32px auto 0;
+  margin: 32px auto 0; }
+
+.desc {
+  display: block;
   color: #5a5a5a; }
 
 .subtitle {
@@ -276,3 +279,65 @@ body {
   margin: 0 10px; }
 
 /* ----- team section styles ----- */
+/* ----- contact section styles ----- */
+.contact__content {
+  margin: 49px auto 73px; }
+
+.contact__desc {
+  margin-bottom: 24px; }
+
+.contact__map-and-form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 320px 1fr;
+  grid-template-columns: 320px 1fr;
+  gap: 40px;
+  margin-top: 42px;
+  text-align: left; }
+
+.contact__map {
+  height: 320px;
+  border: 3px solid #ffffff;
+  -webkit-box-shadow: 0 0 3px #303030;
+  box-shadow: 0 0 3px #303030; }
+
+.form {
+  display: -ms-grid;
+  display: grid;
+  grid-template-areas: "textarea textarea textarea" "textarea textarea textarea" "textarea textarea textarea" "textarea textarea textarea" "email email btn";
+  gap: 25px;
+  max-height: 320px;
+  height: 100%; }
+  .form__textarea {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 7;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 5;
+    grid-area: textarea;
+    padding: 28px 0 0 29px;
+    font-family: "Georgia-Italic";
+    background-color: #f2f2f2;
+    border: 1px solid #d9d9d9;
+    resize: none; }
+  .form__email {
+    -ms-grid-row: 9;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-area: email;
+    padding-left: 29px;
+    font-family: "Georgia-Italic";
+    font-size: 16px;
+    background-color: #f2f2f2;
+    border: 1px solid #d9d9d9; }
+  .form__btn {
+    -ms-grid-row: 9;
+    -ms-grid-column: 5;
+    grid-area: btn;
+    font-family: "Gotham-Bold";
+    background-color: #6995a9;
+    border: 2px solid #ffffff;
+    -webkit-box-shadow: 0 0 1px #303030;
+    box-shadow: 0 0 1px #303030;
+    color: #ffffff; }
+
+/* ----- contact section styles ----- */

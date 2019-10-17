@@ -228,8 +228,12 @@ body {
     &__desc {
         max-width: 534px;
         margin: 32px auto 0;
-        color: #5a5a5a;
     }
+}
+
+.desc {
+    display: block;
+    color: #5a5a5a;
 }
 
 .subtitle {
@@ -290,9 +294,11 @@ body {
 
 .team {
     background-color: #f3f3f3;
+
     &__content {
         padding: 48px 0 80px;
     }
+
     &__cards {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -304,22 +310,26 @@ body {
 .card {
     background-color: #ffffff;
     box-shadow: 0 0 3px #303030;
+
     &__photo {
         margin-top: 18px;
         border: 2px solid #ffffff;
         border-radius: 50%;
         box-shadow: 0 3px 3px #303030;
     }
+
     &__name {
         margin-top: 14px;
         font-family: 'Gotham-Bold';
     }
+
     &__position {
         display: block;
         margin-top: 13px;
         font-family: 'Georgia-Italic';
         font-size: 12px;
     }
+
     &__socials {
         margin-top: 20px;
         padding-bottom: 22px;
@@ -331,9 +341,79 @@ body {
     &__link {
         color: #7f7f7f;
     }
+
     &__icon {
         margin: 0 10px;
     }
 }
 
 /* ----- team section styles ----- */
+
+
+/* ----- contact section styles ----- */
+
+.contact {
+    &__content {
+        margin: 49px auto 73px;
+    }
+
+    &__desc {
+        margin-bottom: 24px;
+    }
+
+    &__map-and-form {
+        display: grid;
+        grid-template-columns: 320px 1fr;
+        gap: 40px;
+        margin-top: 42px;
+        text-align: left;
+    }
+
+    &__map {
+        height: 320px;
+        border: 3px solid #ffffff;
+        box-shadow: 0 0 3px #303030;
+    }
+}
+
+.form {
+    display: grid;
+    grid-template-areas: 
+    "textarea textarea textarea"
+    "textarea textarea textarea"
+    "textarea textarea textarea"
+    "textarea textarea textarea"
+    "email email btn";
+    gap: 25px;
+    max-height: 320px;
+    height: 100%;
+
+    &__textarea {
+        grid-area: textarea;
+        padding: 28px 0 0 29px;
+        font-family: "Georgia-Italic";
+        background-color: #f2f2f2;
+        border: 1px solid #d9d9d9;
+        resize: none;
+    }
+
+    &__email {
+        grid-area: email;
+        padding-left: 29px;
+        font-family: "Georgia-Italic";
+        font-size: 16px;
+        background-color: #f2f2f2;
+        border: 1px solid #d9d9d9;
+    }
+
+    &__btn {
+        grid-area: btn;
+        font-family: "Gotham-Bold";
+        background-color: #6995a9;
+        border: 2px solid #ffffff;
+        box-shadow: 0 0 1px #303030;
+        color: #ffffff;
+    }
+}
+
+/* ----- contact section styles ----- */
