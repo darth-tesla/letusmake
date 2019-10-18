@@ -33,6 +33,7 @@ body {
   font-size: 100%;
   line-height: 1;
   font-size: 16px;
+  scroll-behavior: smooth;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
@@ -341,3 +342,25 @@ body {
     color: #ffffff; }
 
 /* ----- contact section styles ----- */
+/* ----- footer section styles ----- */
+.footer {
+  background-color: #4f4f4f; }
+  .footer__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 36px 0 30px;
+    color: #6e6e6e; }
+  .footer__address_light {
+    font-weight: 700;
+    color: #949494; }
+  .footer__copyright {
+    margin-left: 20px; }
+
+/* ----- footer section styles ----- */

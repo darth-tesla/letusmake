@@ -37,6 +37,7 @@ body {
     font-size: 100%;
     line-height: 1;
     font-size: 16px;
+    scroll-behavior: smooth;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -417,3 +418,29 @@ body {
 }
 
 /* ----- contact section styles ----- */
+
+
+/* ----- footer section styles ----- */
+
+.footer {
+    background-color: #4f4f4f;
+    
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 36px 0 30px;
+        color: #6e6e6e;
+    }
+
+    &__address_light {
+        font-weight: 700;
+        color: #949494;
+    }
+
+    &__copyright {
+        margin-left: 20px;
+    }
+}
+
+/* ----- footer section styles ----- */
