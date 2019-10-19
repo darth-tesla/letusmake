@@ -172,10 +172,24 @@ body {
     background-color: #ffffff;
     border-radius: 50%;
     -webkit-box-shadow: 0 2px 5px #303030;
-    box-shadow: 0 2px 5px #303030; }
+    box-shadow: 0 2px 5px #303030;
+    -webkit-transition: 400ms;
+    -o-transition: 400ms;
+    transition: 400ms; }
+    .arrow__link:hover {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2); }
+      .arrow__link:hover .arrow__icon {
+        -webkit-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+        transform: scale(1.4); }
   .arrow__icon {
     font-size: 20px;
-    color: #525252; }
+    color: #525252;
+    -webkit-transition: 400ms;
+    -o-transition: 400ms;
+    transition: 400ms; }
 
 /* ----- title section styles ----- */
 /* ----- works section styles ----- */
@@ -274,10 +288,22 @@ body {
     font-size: 17px; }
 
 .socials__link {
-  color: #7f7f7f; }
+  color: #7f7f7f;
+  -webkit-transition: 400ms;
+  -o-transition: 400ms;
+  transition: 400ms; }
+  .socials__link:hover {
+    color: #6995a9; }
+    .socials__link:hover .socials__icon {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1); }
 
 .socials__icon {
-  margin: 0 10px; }
+  margin: 0 10px;
+  -webkit-transition: 400ms;
+  -o-transition: 400ms;
+  transition: 400ms; }
 
 /* ----- team section styles ----- */
 /* ----- contact section styles ----- */
@@ -339,7 +365,12 @@ body {
     border: 2px solid #ffffff;
     -webkit-box-shadow: 0 0 1px #303030;
     box-shadow: 0 0 1px #303030;
-    color: #ffffff; }
+    color: #ffffff;
+    -webkit-transition: 400ms;
+    -o-transition: 400ms;
+    transition: 400ms; }
+    .form__btn:hover {
+      background-color: #8dbdd3; }
 
 /* ----- contact section styles ----- */
 /* ----- footer section styles ----- */

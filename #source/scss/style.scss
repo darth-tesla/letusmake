@@ -202,11 +202,19 @@ body {
         background-color: #ffffff;
         border-radius: 50%;
         box-shadow: 0 2px 5px #303030;
+        transition: 400ms;
+        &:hover {
+            transform: scale(1.2);
+        & .arrow__icon {
+            transform: scale(1.4);
+        }
+        }
     }
 
     &__icon {
         font-size: 20px;
         color: #525252;
+        transition: 400ms;
     }
 }
 
@@ -341,10 +349,18 @@ body {
 .socials {
     &__link {
         color: #7f7f7f;
+        transition: 400ms;
+        &:hover {
+            color: #6995a9;
+            & .socials__icon {
+                transform: scale(1.1);
+            }
+        }
     }
 
     &__icon {
         margin: 0 10px;
+        transition: 400ms;
     }
 }
 
@@ -414,6 +430,10 @@ body {
         border: 2px solid #ffffff;
         box-shadow: 0 0 1px #303030;
         color: #ffffff;
+        transition: 400ms;
+        &:hover {
+            background-color: #8dbdd3;
+        }
     }
 }
 
