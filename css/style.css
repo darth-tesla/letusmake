@@ -124,7 +124,13 @@ body {
   font-size: 12px; }
   .nav__list .nav__link {
     margin-left: 20px;
-    color: #adadad; }
+    color: #adadad;
+    -webkit-transition: 400ms;
+    -o-transition: 400ms;
+    transition: 400ms; }
+    .nav__list .nav__link:hover {
+      color: #6995a9;
+      border-bottom: 1px solid #6995a9; }
 
 /* ----- header styles ----- */
 /* ----- title section styles ----- */

@@ -146,6 +146,11 @@ body {
     .nav__link {
         margin-left: 20px;
         color: #adadad;
+        transition: 400ms;
+        &:hover {
+            color: #6995a9;
+            border-bottom: 1px solid #6995a9;
+        }
     }
 }
 
