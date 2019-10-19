@@ -14,11 +14,6 @@
 }
 
 @font-face {
-    font-family: 'Gotham-Book';
-    src: url('../fonts/Gotham-Book.otf')
-}
-
-@font-face {
     font-family: 'Georgia-Italic';
     src: url('../fonts/Georgia\ Italic.ttf')
 }

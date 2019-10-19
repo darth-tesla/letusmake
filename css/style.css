@@ -78,7 +78,7 @@ h6 {
 /* -------------------------------------------------------------------------------------------- */
 /* ----- tag selectors ----- */
 body {
-  font-family: 'Proxima';
+  font-family: 'Proxima', Arial, Helvetica, sans-serif;
   text-align: center;
   color: #303030; }
 
@@ -120,7 +120,7 @@ body {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  font-family: 'Gotham-Medium';
+  font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
   font-size: 12px; }
   .nav__list .nav__link {
     margin-left: 20px;
@@ -136,12 +136,12 @@ body {
   .title-sec__title {
     max-width: 415px;
     margin: auto;
-    font-family: 'Gotham-Bold';
+    font-family: 'Gotham-Bold', Arial, Helvetica, sans-serif;
     font-size: 40px; }
   .title-sec__desc {
     display: inline-block;
     margin-top: 32px;
-    font-family: 'Georgia-Italic';
+    font-family: 'Georgia-Italic', Arial, Helvetica, sans-serif;
     color: #5a5a5a; }
   .title-sec__arrow {
     margin: 67px auto 0; }
@@ -194,7 +194,7 @@ body {
   color: #5a5a5a; }
 
 .subtitle {
-  font-family: 'Gotham-Bold';
+  font-family: 'Gotham-Bold', Arial, Helvetica, sans-serif;
   font-size: 30px; }
   .subtitle::after {
     content: '';
@@ -233,7 +233,7 @@ body {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.4); }
   .grid__caption {
-    font-family: 'Gotham-Medium';
+    font-family: 'Gotham-Medium', Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #ffffff; }
 
@@ -262,11 +262,11 @@ body {
     box-shadow: 0 3px 3px #303030; }
   .card__name {
     margin-top: 14px;
-    font-family: 'Gotham-Bold'; }
+    font-family: 'Gotham-Bold', Arial, Helvetica, sans-serif; }
   .card__position {
     display: block;
     margin-top: 13px;
-    font-family: 'Georgia-Italic';
+    font-family: 'Georgia-Italic', Arial, Helvetica, sans-serif;
     font-size: 12px; }
   .card__socials {
     margin-top: 20px;
@@ -316,7 +316,7 @@ body {
     -ms-grid-column-span: 5;
     grid-area: textarea;
     padding: 28px 0 0 29px;
-    font-family: "Georgia-Italic";
+    font-family: "Georgia-Italic", Arial, Helvetica, sans-serif;
     background-color: #f2f2f2;
     border: 1px solid #d9d9d9;
     resize: none; }
@@ -326,7 +326,7 @@ body {
     -ms-grid-column-span: 3;
     grid-area: email;
     padding-left: 29px;
-    font-family: "Georgia-Italic";
+    font-family: "Georgia-Italic", Arial, Helvetica, sans-serif;
     font-size: 16px;
     background-color: #f2f2f2;
     border: 1px solid #d9d9d9; }
@@ -334,7 +334,7 @@ body {
     -ms-grid-row: 9;
     -ms-grid-column: 5;
     grid-area: btn;
-    font-family: "Gotham-Bold";
+    font-family: "Gotham-Bold", Arial, Helvetica, sans-serif;
     background-color: #6995a9;
     border: 2px solid #ffffff;
     -webkit-box-shadow: 0 0 1px #303030;
