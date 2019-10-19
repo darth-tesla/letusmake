@@ -156,7 +156,7 @@ body {
 /* ----- header styles ----- */
 /* ----- title section styles ----- */
 .title-sec {
-  background-image: url("./img/title-sec-bg.png");
+  background-image: url("../img/title-sec-bg.png");
   background-size: cover; }
   .title-sec__content {
     padding: 172px 0 53px; }
