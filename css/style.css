@@ -428,7 +428,7 @@ body {
   .contact__map {
     width: 90%; }
   .form {
-    grid-template-areas: "textarea" "textarea" "textarea" "email" "email" "btn" "btn";
+    grid-template-areas: "textarea" "textarea" "textarea" "textarea" "textarea" "email" "email" "email" "email" "btn" "btn" "btn";
     gap: 10px;
     justify-items: center; }
     .form__textarea, .form__email, .form__btn {
@@ -454,7 +454,7 @@ body {
     grid-template-columns: 1fr;
     justify-items: center; }
   .form {
-    grid-template-areas: "textarea textarea textarea" "textarea textarea textarea" "textarea textarea textarea" "textarea textarea textarea" "textarea textarea textarea" "email email btn" "email email btn";
+    grid-template-areas: "textarea textarea textarea" "textarea textarea textarea" "textarea textarea textarea" "textarea textarea textarea" "textarea textarea textarea" "textarea textarea textarea" "email email btn" "email email btn" "email email btn";
     gap: 15px; }
   .form__textarea {
     -ms-grid-row: 1;
